@@ -1,0 +1,13 @@
+query allCharacters($name: String) {
+    characters(filter: { name: $name }) {
+      info {
+        count
+      }
+      results {
+        id
+        name
+        species
+        status
+      }
+  }
+}

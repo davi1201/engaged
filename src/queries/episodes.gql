@@ -1,0 +1,10 @@
+query allEpisodes {
+    episodes {
+        info {
+        count
+        }
+        results {
+        name
+        }
+  }
+}
